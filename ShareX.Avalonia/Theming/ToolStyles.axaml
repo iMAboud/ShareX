@@ -4,14 +4,14 @@
         <Setter Property="Background" Value="{DynamicResource ShareX.Brush.Background.Panel}"/>
         <Setter Property="BorderBrush" Value="{DynamicResource ShareX.Brush.Border}"/>
         <Setter Property="BorderThickness" Value="1"/>
-        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="CornerRadius" Value="10"/>
         <Setter Property="Padding" Value="12"/>
     </Style>
 
     <Style Selector="Border.docked-top-toolbar">
         <Setter Property="Padding" Value="8"/>
         <Setter Property="BorderThickness" Value="1,0,1,1"/>
-        <Setter Property="CornerRadius" Value="0,0,4,4"/>
+        <Setter Property="CornerRadius" Value="0,0,10,10"/>
     </Style>
 
     <Style Selector="Border.docked-top-toolbar > Grid">

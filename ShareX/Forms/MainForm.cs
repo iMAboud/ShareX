@@ -65,7 +65,7 @@ public sealed class MainForm : HotkeyForm
         bool showMainWindow = !(Program.SilentRun || Program.Settings.SilentRun) || !Program.Settings.ShowTray;
         MainWindowIntegration.Initialize(TrayIconService, showMainWindow);
 
-        ShareX.Tools.MouseHighlighterManager.ActivateOnStartup(Program.DefaultTaskSettings.ToolsSettings.MouseHighlighterOptions);
+        // MouseHighlighter startup deactivated to optimize resource footprint
 
         if (showMainWindow)
         {
